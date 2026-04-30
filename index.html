@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Galaxy - Beyond Infinity</title>
+  </head>
+  <body class="bg-black text-white overflow-x-hidden">
+    <div class="fixed inset-0 -z-10 overflow-hidden">
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-black via-[#07071a] to-black"
+      ></div>
+      <div
+        class="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(168,85,247,0.28),transparent_45%)]"
+      ></div>
+      <div
+        class="absolute top-[-120px] left-1/2 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-purple-500/20 blur-[140px]"
+      ></div>
+      <div
+        class="absolute bottom-[-160px] right-[-120px] h-[420px] w-[420px] rounded-full bg-blue-500/20 blur-[130px]"
+      ></div>
+    </div>
+    <header>
+      <nav
+        class="fixed top-0 left-0 right-0 z-50 bg-black/40 backdrop-blur-2xl border-b border-white/10"
+      >
+        <div
+          class="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between"
+        >
+          <h1 class="text-white font-bold text-xl">Galaxy</h1>
+          <ul class="flex items-center gap-6">
+            <li>
+              <a
+                href="#hero"
+                class="text-white/70 hover:text-white transition-colors"
+                >Inicio</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                class="text-white/70 hover:text-white transition-colors"
+                >Sobre</a
+              >
+            </li>
+            <li>
+              <a
+                href="#projects"
+                class="text-white/70 hover:text-white transition-colors"
+                >Projetos</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="text-white/70 hover:text-white transition-colors"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        id="hero"
+        class="min-h-screen flex items-center justify-center text-center px-6 scroll-mt-24"
+      >
+        <div>
+          <p class="uppercase tracking-[0.3em] text-sm bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent cursor-default hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-400 hover:scale-105">
+            Front End Developer
+          </p>
+
+          <h1 class="text-5xl md:text-7xl font-bold mt-4 bg-gradient-to-r from-white via-purple-400 to-blue-400 bg-clip-text text-transparent">Vitor</h1>
+
+          <p class="text-white/70 max-w-xl mt-6">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A aliquid
+            neque cumque iure nostrum optio dolorem eum illo minus.
+          </p>
+
+          <button onclick="window.location.href='#projects'" class="mt-8 px-8 py-4 rounded-xl bg-purple-600 hover:bg-purple-500 transition" 
+          >
+            Ver Projetos
+          </button>
+        </div>
+      </section>
+      <section id="about" class="min-h-screen px-8 py-32 scroll-mt-24">
+        <h2 class="text-4xl font-bold">Sobre</h2>
+      </section>
+  <section id="projects" class="min-h-screen px-8 py-32 scroll-mt-24">
+  <div class="max-w-7xl mx-auto">
+
+    <div class="text-center">
+      <h2 class="text-4xl md:text-5xl font-bold">
+        Featured Projects
+      </h2>
+
+      <p class="text-white/60 mt-4 max-w-2xl mx-auto">
+        Interfaces modernas focadas em design e experiência do usuário.
+      </p>
+    </div>
+<div class="grid md:grid-cols-3 gap-6 mt-12 ">
+    <div class=" rounded-3xl border border-white/10 bg-white/[0.04] p-6 backdrop-blur-lg hover:bg-white/[0.08] hover:backdrop-blur-lg hover:scale-105 transition hover:cursor-pointer hover:-translate-y-2 transition shadow-lg shadow-purple-500/10">
+      <h3 class="text-2xl font-bold">
+        Portfolio Website
+      </h3>
+      <p class="text-white/60 mt-4">
+        Site pessoal criado para apresentar projetos, habilidades e identidade visual.
+      </p>
+    </div>
+
+    <div class=" rounded-3xl border border-white/10 bg-white/[0.04] p-6 backdrop-blur-lg hover:bg-white/[0.08] hover:backdrop-blur-lg hover:scale-105 transition hover:cursor-pointer hover:-translate-y-2 transition shadow-lg shadow-purple-500/10">
+      <h3 class="text-2xl font-bold">
+        Landing Page
+      </h3>
+
+      <p class="text-white/60 mt-4">
+        Página moderna com foco em visual premium, layout limpo e boa apresentação.
+      </p>
+    </div>
+
+    <div class="rounded-3xl border border-white/10 bg-white/[0.04] p-6 backdrop-blur-lg hover:bg-white/[0.08] hover:backdrop-blur-lg hover:scale-105 transition hover:cursor-pointer hover:-translate-y-2 transition shadow-lg shadow-purple-500/10">
+      <h3 class="text-2xl font-bold">
+        JavaScript Project
+      </h3>
+
+      <p class="text-white/60 mt-4">
+        Projeto interativo usando lógica em JavaScript e manipulação do DOM.
+      </p>
+    </div>
+</div>
+  </div>
+</section>
+
+      </section>
+      <section id="contact" class="min-h-screen px-8 py-32">
+        <h2 class="text-4xl font-bold">Contato</h2>
+      </section>
+    </main>
+    <footer class="py-8 text-center text-white/40">© 2026 Vitor</footer>
+  </body>
+</html>

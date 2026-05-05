@@ -9,8 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="output.css">
 </head>
 
 <body>
@@ -27,7 +27,7 @@
           <li><a href="#hero">Home</a></li>
           <li><a href="#about">Sobre</a></li>
           <li><a href="#projects">Projetos</a></li>
-          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#about">Habilidades</a></li>
           <li><a href="#contact">Contato</a></li>
         </ul>
       </nav>
@@ -43,8 +43,8 @@
         <h2>Front-end Developer</h2>
 
         <div class="hero-buttons">
-          <a href="#projects" class="hero-btn">Ver projetos</a>
-          <a href="#contact" class="hero-btn secondary">Contato</a>
+          <a href="#projects" class="hero-btn hover:scale-110 duration-300">Ver projetos</a>
+          <a href="#contact" class="hero-btn secondary hover:scale-110 duration-300">Contato</a>
         </div>
       </div>
 
@@ -69,25 +69,25 @@
             </p>
           </div>
 
-          <div class="skills-icons flex gap-6 flex-wrap">
+          <div class="skills-icons fgilex gap-6 flex-wrap">
 
-  <div class="skill-item flex flex-col items-center gap-2">
+  <div class="skill-item flex flex-col items-center gap-2 hover:scale-110">
     <img src="html5.png" class="w-16 h-16 object-contain">
     <span class="text-sm">HTML</span>
   </div>
 
-  <div class="skill-item flex flex-col items-center gap-2">
+  <div class="skill-item flex flex-col items-center gap-2 hover:scale-110">
     <img src="css.png" class="w-16 h-16 object-contain">
     <span class="text-sm">CSS</span>
   </div>
 
-  <div class="skill-item flex flex-col items-center gap-2">
-    <img src="javascript.png" class="w-16 h-16 object-contain">
+  <div class="skill-item flex flex-col items-center gap-2 hover:scale-110">
+    <img src="javascript.png" class="w-16 h-16 object-contain ">
     <span class="text-sm">JavaScript</span>
   </div>
 
-  <div class="skill-item flex flex-col items-center gap-2">
-    <img src="tailwind.png" class="w-16 h-16 object-contain">
+  <div class="skill-item flex flex-col items-center gap-2 hover:scale-110">
+    <img src="tailwind.png" class="w-16 h-16 object-contain ">
     <span class="text-sm">Tailwind</span>
   </div>
 
@@ -135,9 +135,10 @@
         <p>Entre em contato comigo pelos links abaixo.</p>
 
         <div class="contact-links">
-          <a href="mailto:seuemail@email.com">Email</a>
-          <a href="#">GitHub</a>
-          <a href="#">LinkedIn</a>
+          <a class="inline-block text-cyan-400 text-sm font-medium 
+                    hover:text-blue-500 transition" href="https://github.com/n3kaep" target ="_blank">GitHub</a>
+          <a class="inline-block text-cyan-400 text-sm font-medium 
+                    hover:text-blue-500 transition"      href="https://www.linkedin.com/in/vitor-gabriel-a04a36312/">LinkedIn</a>
         </div>
       </div>
     </section>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Vitor | Front-end</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header id="header">
+    <div id="navbar">
+      <div class="logo">
+        <span class="logo-n">Meu</span>
+        <span class="logo-3">Portfólio</span>
+      </div>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="hero" class="hero">
+      <div class="hero-text">
+        <p class="tag">PORTFÓLIO</p>
+        <h1>Vitor Gabriel</h1>
+        <h2>Front-end Developer</h2>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="hero-btn">Ver projetos</a>
+          <a href="#contact" class="hero-btn secondary">Contato</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="sua-foto.png" alt="Foto de Vitor Gabriel">
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="about-content">
+
+          <div class="about-box">
+            <h2>Sobre mim</h2>
+            <p>
+              Desenvolvedor Front-end em formação, focado na criação de interfaces modernas,
+              responsivas e bem estruturadas.
+            </p>
+            <p>
+              Atualmente desenvolvendo projetos próprios para consolidar minha base e evoluir
+              para nível profissional com consistência.
+            </p>
+          </div>
+
+          <div class="skills-icons flex gap-6 flex-wrap">
+
+  <div class="skill-item flex flex-col items-center gap-2">
+    <img src="html5.png" class="w-16 h-16 object-contain">
+    <span class="text-sm">HTML</span>
+  </div>
+
+  <div class="skill-item flex flex-col items-center gap-2">
+    <img src="css.png" class="w-16 h-16 object-contain">
+    <span class="text-sm">CSS</span>
+  </div>
+
+  <div class="skill-item flex flex-col items-center gap-2">
+    <img src="javascript.png" class="w-16 h-16 object-contain">
+    <span class="text-sm">JavaScript</span>
+  </div>
+
+  <div class="skill-item flex flex-col items-center gap-2">
+    <img src="tailwind.png" class="w-16 h-16 object-contain">
+    <span class="text-sm">Tailwind</span>
+  </div>
+
+</div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projetos</h2>
+
+        <div class="project-list  ">
+          <article class="project-card bg-white p-8 rounded-2xl border border-black/20 
+                transition duration-300 hover:-translate-y-2 hover:shadow-xl">
+            <h3>Portfólio Pessoal</h3>
+            <p>Site criado com HTML e CSS para apresentar minha evolução como desenvolvedor.</p>
+            <a class="inline-block text-cyan-400 text-sm font-medium 
+                    hover:text-cyan-300 transition"     href="#">Ver projeto</a>
+          </article>
+
+          <article class="project-card bg-white p-8 rounded-2xl border border-black/20 
+                transition duration-300 hover:-translate-y-2 hover:shadow-xl">
+            <h3>Landing Page</h3>
+            <p>Página responsiva criada para praticar estrutura, layout e hierarquia visual.</p>
+            <a class="inline-block text-cyan-400 text-sm font-medium 
+                    hover:text-cyan-300 transition" href="#">Ver projeto</a>
+          </article>
+
+          <article class="project-card bg-white p-8 rounded-2xl border border-black/20 
+                transition duration-300 hover:-translate-y-2 hover:shadow-xl">
+            <h3>Projeto JavaScript</h3>
+            <p>Aplicação simples para praticar lógica, DOM e interação com o usuário.</p>
+            <a class="inline-block text-cyan-400 text-sm font-medium 
+                    hover:text-cyan-300 transition" href="#">Ver projeto</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo pelos links abaixo.</p>
+
+        <div class="contact-links">
+          <a href="mailto:seuemail@email.com">Email</a>
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer">
+    <p>&copy; 2026 - Vitor Gabriel. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
